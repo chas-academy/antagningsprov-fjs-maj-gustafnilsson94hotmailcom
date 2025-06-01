@@ -13,9 +13,9 @@ function uppg9 (){
             let tal = arr[i]
 
             if (tal % 2 === 0) {
-                console.log(tal + " jämt")
+                console.log(tal," jämt")
             } else { 
-                console.log(tal + " udda")
+                console.log(tal," udda")
             }
         }
     }
