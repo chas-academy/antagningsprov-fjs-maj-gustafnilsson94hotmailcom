@@ -13,9 +13,9 @@ function uppg9 (){
             let tal = arr[i]
 
             if (tal % 2 === 0) {
-                console.log(tal + "jämt")
-            } else {
-                console.log(tal + "udda")
+                console.log(tal + " jämt")
+            } else { 
+                console.log(tal + " udda")
             }
         }
     }
@@ -23,5 +23,5 @@ function uppg9 (){
     let siffror = [3, 6, 7, 12, 15, 20]
     sort(siffror)
 }
-
+uppg9()
 module.exports = { uppg9 };

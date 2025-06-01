@@ -6,5 +6,5 @@ function uppg1(){
     
     console.log("Hello world!")
     }
-    
+    uppg1()
     module.exports = { uppg1 };
