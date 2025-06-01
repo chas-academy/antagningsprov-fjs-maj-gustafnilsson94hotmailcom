@@ -8,7 +8,20 @@ function uppg9 (){
 
     // anropa funktionen och skicka med en array som argument
 
-  
+    function sort(arr) {
+        for (let i = 0; i < arr.length; i++) {
+            let tal = arr[i]
+
+            if (tal % 2 === 0) {
+                console.log(tal + "jämt")
+            } else {
+                console.log(tal + "udda")
+            }
+        }
+    }
+
+    let siffror = [3, 6, 7, 12, 15, 20]
+    sort(siffror)
 }
 
 module.exports = { uppg9 };
